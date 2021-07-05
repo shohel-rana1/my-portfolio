@@ -1,14 +1,56 @@
-.boder-container{
-    height: 200px;
-    width: 400px;
-    margin:auto;
-    border: double 4px transparent;
-    border-radius: 50% 50%  0 50%;
+*{
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.orange-color{
+    color: rgb(255, 136, 0);
+}
+/* section banner below */
+section{
+    display: flex;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+/* div half container here below */
+.half-container{
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 5%;
+    
+}
+/* link button css */
+.btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    cursor: pointer; 
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+/* image with border */
+.border{
+    width: 80%;
+    display: flex;
+    border: double 6px transparent;
+    border-radius: 50% 50% 0 50%;
     background-image: linear-gradient(#fff,#fff ), radial-gradient(circle at top left, #ef1eef,#163ae0);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
-.boder-container img {
+.border img{
+    width: 100%;
+    height: 100%;
     border-radius: 50% 50% 0 50%;
-
-  }   
+}
