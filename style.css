@@ -9,11 +9,15 @@ h1{
     font-size: 50px;
     font-weight: bold;
 }
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
 .orange-color{
     color: rgb(255, 136, 0);
 }
 /* section banner below */
-section{
+.flexible-containter{
     display: flex;
 }
 .top-banner{
@@ -22,7 +26,7 @@ section{
 }
 /* div half container here below */
 .half-container{
-    width: 50%;
+    width: 40%;
     padding-left: 2%;
     margin-left: 5%;
     
@@ -74,4 +78,46 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/* last section css below  */
+#exper{
+    font-size: 50px;
+    color: tomato;
+    display: block;
+}
+.last-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.exper-item{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+#item-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+
+}
+#item-border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(105, 71, 255),rgb(0, 60, 255));
+    border-image-slice: 1;
+
+}
+/* footer past css below */
+.footer{
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: rgb(230, 230, 230);
 }
